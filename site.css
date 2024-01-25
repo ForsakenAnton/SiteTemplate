@@ -1,0 +1,70 @@
+@import url(microsoft-icon.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.site-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 0.25rem;
+}
+
+.block {
+    border: 2px solid black;
+    border-radius: 0.25rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.head,
+.footer {
+    grid-column: 1 / span 3;
+}
+
+.link {
+    margin: 0 1rem;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.me-auto {
+    margin-right: auto;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.bg-blue {
+    background-color: steelblue;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.d-i-block {
+    display: inline-block;
+}
+
+.align-self-center {
+    align-self:flex-start;
+    
+}

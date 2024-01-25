@@ -1,0 +1,30 @@
+.grid-icon {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    align-content: center;
+}
+
+.microsoft-blue {
+    background-color: #00A1F1;
+}
+
+.microsoft-green {
+    background-color: #7CBB00;
+}
+
+.microsoft-yellow {
+    background-color: #FFB900;
+}
+
+.microsoft-red {
+    background-color: #FF5050;
+}
+
+.w-2rem {
+    width: 1rem;
+}
+
+.h-2rem {
+    height: 1rem;
+}
